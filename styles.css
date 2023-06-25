@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(0, 109, 235);
+}
+
+.title {
+    color: #3498db;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+}
+
+.main {
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    width: 430px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.inp {
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border: solid 0.5px #3396ff;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: Georgia;
+}
+
+.inp:focus {
+    outline: none;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    /* margin-left: 40px; */
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-p {
+    padding: 10px;
+    width: 280px;
+    margin-left: 40px;
+    margin-right: 0px;
+    background-color: #e6e6e6;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.box {
+    height: 37px;
+    width: 46px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.task {
+    display: grid;
+    grid-template-columns: auto max-content;
+    gap: 0px;
+    align-items: center;
+}
+
+.warning {
+    border: solid 2px red;
+}
